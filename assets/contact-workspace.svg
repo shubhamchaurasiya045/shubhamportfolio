@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="520" viewBox="0 0 640 520" fill="none">
+  <defs>
+    <linearGradient id="panel" x1="92" y1="70" x2="551" y2="437" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#15304A"/>
+      <stop offset="1" stop-color="#091A2D"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="176" y1="142" x2="469" y2="329" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#122940"/>
+      <stop offset="1" stop-color="#091522"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="164" y1="310" x2="472" y2="310" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#80E5EF" stop-opacity=".08"/>
+      <stop offset=".5" stop-color="#80E5EF" stop-opacity=".65"/>
+      <stop offset="1" stop-color="#80E5EF" stop-opacity=".08"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(0 163 -196 0 398 186)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#55D7E7" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#55D7E7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="39" y="43" width="564" height="442" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <ellipse cx="321" cy="440" fill="#020B16" opacity=".42" rx="246" ry="25" filter="url(#shadow)"/>
+  <rect x="69" y="49" width="502" height="390" rx="27" fill="url(#panel)" stroke="#8EBFDA" stroke-opacity=".22"/>
+  <rect x="70" y="50" width="500" height="388" rx="26" fill="url(#glow)"/>
+  <path d="M95 75h450" stroke="#B2CFE4" stroke-opacity=".11"/>
+  <circle cx="97" cy="63" r="3" fill="#83E6F1"/>
+  <circle cx="109" cy="63" r="3" fill="#83E6F1" fill-opacity=".42"/>
+  <circle cx="121" cy="63" r="3" fill="#83E6F1" fill-opacity=".2"/>
+  <text x="523" y="67" fill="#9DB3C7" font-family="Arial,sans-serif" font-size="8" letter-spacing="1.4" text-anchor="end">BUILD · LEARN · CONNECT</text>
+
+  <rect x="104" y="100" width="289" height="214" rx="12" fill="url(#screen)" stroke="#8EBFDA" stroke-opacity=".18"/>
+  <rect x="118" y="115" width="261" height="22" rx="6" fill="#18334B"/>
+  <circle cx="131" cy="126" r="3" fill="#83E6F1"/>
+  <text x="142" y="129" fill="#D9EAF4" font-family="Arial,sans-serif" font-size="8">workspace.java</text>
+  <text x="359" y="129" fill="#88A7BE" font-family="Arial,sans-serif" font-size="7" text-anchor="end">CSE · AI/ML</text>
+  <path d="M130 160h30m-30 20h44m-44 20h28m-28 20h61m-61 20h37m-37 20h50" stroke="#7592AA" stroke-linecap="round" stroke-opacity=".55" stroke-width="4"/>
+  <path d="M169 160h61m-45 20h81m-63 20h49m-23 20h59m-52 20h75m-83 20h42" stroke="#83E6F1" stroke-linecap="round" stroke-opacity=".8" stroke-width="4"/>
+  <path d="M244 160h30m-9 20h42m-19 20h38m-21 20h22m-4 20h31m-47 20h35" stroke="#C1D5E4" stroke-linecap="round" stroke-opacity=".46" stroke-width="4"/>
+  <path d="M127 282h55" stroke="#83E6F1" stroke-linecap="round" stroke-opacity=".3" stroke-width="2"/>
+  <rect x="189" y="275" width="63" height="14" rx="7" fill="#83E6F1" fill-opacity=".1" stroke="#83E6F1" stroke-opacity=".25"/>
+  <text x="220.5" y="284.5" fill="#AEEBF0" font-family="Arial,sans-serif" font-size="6" letter-spacing=".7" text-anchor="middle">PROBLEM SOLVING</text>
+
+  <path d="M411 144c24-25 57-19 74 5m-76 61c20 21 50 25 72 9m-68 42c19-17 43-20 65-10" stroke="#83E6F1" stroke-opacity=".26" stroke-width="1.4" stroke-dasharray="3 6"/>
+  <circle cx="426" cy="132" r="18" fill="#102A40" stroke="#83E6F1" stroke-opacity=".52"/>
+  <circle cx="426" cy="132" r="7" fill="#83E6F1" fill-opacity=".85"/>
+  <circle cx="502" cy="151" r="14" fill="#102A40" stroke="#83E6F1" stroke-opacity=".4"/>
+  <path d="M497 151h10m-5-5v10" stroke="#83E6F1" stroke-linecap="round" stroke-width="1.5"/>
+  <circle cx="430" cy="222" r="15" fill="#102A40" stroke="#83E6F1" stroke-opacity=".42"/>
+  <path d="M424 222h12m-9-4 3-2 3 2m-6 7 3 2 3-2" stroke="#83E6F1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+  <circle cx="497" cy="260" r="18" fill="#102A40" stroke="#83E6F1" stroke-opacity=".52"/>
+  <path d="M490 261c2-4 4-6 7-6s5 2 7 6m-14 3h14" stroke="#83E6F1" stroke-linecap="round" stroke-width="1.4"/>
+  <circle cx="426" cy="132" r="2.5" fill="#C4F4F4"/>
+  <circle cx="502" cy="151" r="2" fill="#C4F4F4"/>
+  <circle cx="430" cy="222" r="2" fill="#C4F4F4"/>
+  <circle cx="497" cy="260" r="2.5" fill="#C4F4F4"/>
+  <text x="426" y="163" fill="#B5C9D9" font-family="Arial,sans-serif" font-size="7" letter-spacing=".8" text-anchor="middle">AI / ML</text>
+  <text x="502" y="177" fill="#B5C9D9" font-family="Arial,sans-serif" font-size="7" letter-spacing=".8" text-anchor="middle">IDEAS</text>
+  <text x="430" y="249" fill="#B5C9D9" font-family="Arial,sans-serif" font-size="7" letter-spacing=".8" text-anchor="middle">CODE</text>
+  <text x="497" y="290" fill="#B5C9D9" font-family="Arial,sans-serif" font-size="7" letter-spacing=".8" text-anchor="middle">PEOPLE</text>
+
+  <path d="M184 325h130l28 51H156l28-51Z" fill="#15354D" stroke="#8EBFDA" stroke-opacity=".25"/>
+  <path d="M164 367h169l-11 12H175l-11-12Z" fill="#0B1D30" stroke="#8EBFDA" stroke-opacity=".32"/>
+  <path d="M198 338h103" stroke="url(#beam)" stroke-linecap="round" stroke-width="2"/>
+  <rect x="220" y="347" width="49" height="12" rx="6" fill="#83E6F1" fill-opacity=".08"/>
+  <circle cx="244.5" cy="353" r="2" fill="#83E6F1" fill-opacity=".65"/>
+
+  <rect x="100" y="401" width="119" height="21" rx="10.5" fill="#102A40" stroke="#8EBFDA" stroke-opacity=".2"/>
+  <circle cx="114" cy="411.5" r="3" fill="#83E6F1"/>
+  <text x="124" y="414.5" fill="#C6D8E6" font-family="Arial,sans-serif" font-size="7" letter-spacing=".7">OPEN TO COLLABORATE</text>
+  <text x="544" y="414.5" fill="#83E6F1" font-family="Arial,sans-serif" font-size="8" letter-spacing="1.2" text-anchor="end">SV · 01</text>
+  <path d="M48 150v42m-21-21h42" stroke="#83E6F1" stroke-linecap="round" stroke-opacity=".45"/>
+  <circle cx="49" cy="171" r="28" stroke="#83E6F1" stroke-opacity=".17" stroke-dasharray="2 6"/>
+  <circle cx="581" cy="340" r="19" stroke="#83E6F1" stroke-opacity=".28"/>
+  <circle cx="581" cy="340" r="4" fill="#83E6F1" fill-opacity=".8"/>
+</svg>
