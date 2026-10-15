@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Shubham Veltrix is a computer science student exploring software development, AI, and machine learning."
+    >
+    <meta name="theme-color" content="#f7f8f5">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Shubham Veltrix — Computer Science Student">
+    <meta
+      property="og:description"
+      content="A computer science student exploring software development, artificial intelligence, and machine learning."
+    >
+    <title>Shubham Veltrix | Computer Science &amp; AI/ML</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="wordmark" href="#home" aria-label="Shubham Veltrix home">
+          <span class="wordmark-mark">SV</span>
+          <span>Shubham Veltrix</span>
+        </a>
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#journey">Journey</a>
+          <a href="collaboration.html">Collaboration</a>
+          <a class="nav-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+        </nav>
+        <div class="header-actions">
+          <button class="command-toggle" type="button" aria-label="Open command menu, Ctrl plus K">
+            <span class="command-toggle-label">Quick access</span>
+            <kbd>Ctrl K</kbd>
+          </button>
+          <button
+            class="menu-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="site-nav"
+            aria-label="Open navigation"
+          >
+            <span></span>
+            <span></span>
+          </button>
+          <button
+            class="more-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="more-menu"
+            aria-label="Open quick links"
+          >
+            <span aria-hidden="true">⋮</span>
+          </button>
+          <nav class="more-menu" id="more-menu" aria-label="Quick links" hidden>
+            <a class="more-menu-link" href="#about">About me <span aria-hidden="true">↗</span></a>
+            <a class="more-menu-link" href="collaboration.html">Collaboration hub <span aria-hidden="true">↗</span></a>
+            <span class="more-menu-link is-unavailable" aria-disabled="true">Resume / CV <span>Coming soon</span></span>
+            <button class="more-menu-link appearance-toggle" type="button" aria-pressed="false">
+              <span>Appearance</span>
+              <span class="appearance-value">Light</span>
+            </button>
+            <span class="more-menu-link is-unavailable" aria-disabled="true">GitHub <span>Coming soon</span></span>
+            <a
+              class="more-menu-link"
+              href="https://www.linkedin.com/in/shubham-chaurasiya-15685a36"
+              target="_blank"
+              rel="noopener noreferrer"
+            >LinkedIn <span aria-hidden="true">↗</span></a>
+            <a class="more-menu-link" href="mailto:shubhamchaurasiya058@gmail.com">Contact me <span aria-hidden="true">↗</span></a>
+            <button class="more-menu-link credits-toggle" type="button">About this website <span aria-hidden="true">↗</span></button>
+            <span class="more-menu-version">Version <span>v1.0</span></span>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <dialog class="command-dialog" aria-labelledby="command-title">
+      <div class="command-dialog-inner">
+        <div class="command-dialog-heading">
+          <div>
+            <p class="eyebrow">Navigate and take action</p>
+            <h2 id="command-title">Quick access</h2>
+          </div>
+          <button class="command-close" type="button" aria-label="Close quick access">×</button>
+        </div>
+        <label class="command-search-wrap">
+          <span aria-hidden="true">⌕</span>
+          <input
+            class="command-search"
+            type="search"
+            placeholder="Search pages and actions..."
+            autocomplete="off"
+            aria-label="Search pages and actions"
+            aria-controls="command-list"
+          >
+          <kbd>ESC</kbd>
+        </label>
+        <div class="command-list" id="command-list" role="listbox" aria-label="Pages and actions">
+          <a class="command-item" role="option" aria-selected="false" tabindex="-1" href="index.html#home" data-search="home portfolio start">
+            <span class="command-item-icon" aria-hidden="true">⌂</span><span class="command-item-copy"><strong>Home</strong><small>Portfolio landing page</small></span><kbd>↵</kbd>
+          </a>
+          <a class="command-item" role="option" aria-selected="false" tabindex="-1" href="index.html#about" data-search="about me profile">
+            <span class="command-item-icon" aria-hidden="true">◉</span><span class="command-item-copy"><strong>About me</strong><small>Background and interests</small></span><kbd>↵</kbd>
+          </a>
+          <a class="command-item" role="option" aria-selected="false" tabindex="-1" href="index.html#skills" data-search="skills toolkit programming">
+            <span class="command-item-icon" aria-hidden="true">&lt;/&gt;</span><span class="command-item-copy"><strong>Skills</strong><small>Tools and technologies</small></span><kbd>↵</kbd>
+          </a>
+          <a class="command-item" role="option" aria-selected="false" tabindex="-1" href="index.html#journey" data-search="journey education learning">
+            <span class="command-item-icon" aria-hidden="true">↗</span><span class="command-item-copy"><strong>Journey</strong><small>Education and learning</small></span><kbd>↵</kbd>
+          </a>
+          <a class="command-item" role="option" aria-selected="false" tabindex="-1" href="collaboration.html" data-search="collaboration hub internship project open source opportunities">
+            <span class="command-item-icon" aria-hidden="true">✳</span><span class="command-item-copy"><strong>Collaboration Hub</strong><small>Internships, projects, and open source</small></span><kbd>↵</kbd>
+          </a>
+          <a class="command-item" role="option" aria-selected="false" tabindex="-1" href="index.html#contact" data-search="contact email get in touch">
+            <span class="command-item-icon" aria-hidden="true">@</span><span class="command-item-copy"><strong>Contact</strong><small>Get in touch by email</small></span><kbd>↵</kbd>
+          </a>
+          <button class="command-item command-appearance" role="option" aria-selected="false" tabindex="-1" type="button" data-search="appearance theme light dark">
+            <span class="command-item-icon" aria-hidden="true">◐</span><span class="command-item-copy"><strong>Toggle appearance</strong><small>Switch between light and dark</small></span><kbd>↵</kbd>
+          </button>
+          <a class="command-item" role="option" aria-selected="false" tabindex="-1" href="https://www.linkedin.com/in/shubham-chaurasiya-15685a36" target="_blank" rel="noopener noreferrer" data-search="linkedin social profile">
+            <span class="command-item-icon" aria-hidden="true">in</span><span class="command-item-copy"><strong>LinkedIn</strong><small>Open professional profile</small></span><kbd>↵</kbd>
+          </a>
+        </div>
+        <p class="command-empty" role="status" hidden>No matching pages or actions.</p>
+        <div class="command-dialog-footer"><span><kbd>↑</kbd> <kbd>↓</kbd> to navigate</span><span><kbd>↵</kbd> to select</span><span><kbd>ESC</kbd> to close</span></div>
+      </div>
+    </dialog>
+
+    <main id="main">
+      <section class="hero section-wrap" id="home" aria-labelledby="hero-title">
+        <div class="hero-visual">
+          <div class="portrait-frame">
+            <img class="portrait" alt="Profile photo of Shubham Veltrix" hidden>
+            <div class="portrait-placeholder" id="portrait-placeholder">
+              <svg class="portrait-placeholder-art" viewBox="0 0 160 160" fill="none" aria-hidden="true">
+                <circle cx="80" cy="80" r="69" stroke="currentColor" stroke-width="1"/>
+                <circle cx="80" cy="80" r="50" stroke="currentColor" stroke-width="1" stroke-dasharray="2 6"/>
+                <circle cx="80" cy="63" r="16" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M47 119c3-20 16-31 33-31s30 11 33 31" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M122 34v19m-9-9h18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+              <p class="portrait-prompt">A little curiosity goes a long way.</p>
+              <p class="portrait-hint">Add a portrait to make this page yours.</p>
+              <label class="button button-dark photo-picker" for="photo-upload">
+                Add your photo <span aria-hidden="true">↑</span>
+              </label>
+              <input
+                class="visually-hidden"
+                id="photo-upload"
+                type="file"
+                accept="image/jpeg,image/png,image/webp"
+                aria-label="Choose your profile photo"
+                aria-describedby="photo-status"
+              >
+              <span class="portrait-index" aria-hidden="true">COMPUTER SCIENCE · AI/ML</span>
+            </div>
+          </div>
+          <div class="photo-controls" id="photo-controls" hidden>
+            <label class="text-link photo-change" for="photo-upload">Choose a different photo <span aria-hidden="true">↗</span></label>
+            <button class="text-link photo-remove" id="photo-remove" type="button">Remove photo <span aria-hidden="true">×</span></button>
+          </div>
+          <p class="photo-status" id="photo-status" role="status" aria-live="polite">Your photo stays on this device.</p>
+          <div class="orbit-note" aria-hidden="true">
+            <span class="orbit-star">✳</span>
+            <span>Learning<br>by building</span>
+          </div>
+          <span class="visual-caption" id="photo-caption">Learning, building, and staying curious.</span>
+        </div>
+
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Computer science student · Kanpur, India</p>
+          <h1 id="hero-title">Curious by nature.<br><span>Building for</span><br><span class="accent-word">what’s next.</span></h1>
+          <p class="hero-intro">
+            I’m Shubham — a computer science student exploring software development,
+            artificial intelligence, and machine learning, one idea at a time.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#about">Get to know me <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="mailto:shubhamchaurasiya058@gmail.com">Get in touch <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-meta">
+            <span>B.Tech · CSE (AI &amp; ML)</span>
+            <span class="meta-divider" aria-hidden="true"></span>
+            <span>Third year</span>
+          </div>
+        </div>
+
+        <a class="scroll-cue" href="#about"><span aria-hidden="true">↓</span> Scroll to explore</a>
+      </section>
+
+      <section class="about section-wrap section-pad" id="about" aria-labelledby="about-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow">A little about me <span class="eyebrow-line"></span> 01</p>
+          <h2 id="about-title">Turning curiosity<br>into <span class="serif-accent">something real.</span></h2>
+        </div>
+        <div class="about-content reveal">
+          <p class="about-lead">
+            I’m currently pursuing a B.Tech in Computer Science Engineering with a
+            focus on Artificial Intelligence and Machine Learning at Maharana Pratap
+            Group of Institutions.
+          </p>
+          <p class="body-copy">
+            I enjoy understanding how things work, then putting that knowledge into
+            practice — from programming fundamentals and data structures to building
+            for the web. Right now, I’m strengthening my skills in Java, Python, and C
+            while exploring the foundations of AI and machine learning.
+          </p>
+          <p class="body-copy">
+            I’m always learning, asking questions, and looking for opportunities to
+            grow through hands-on work and meaningful collaboration.
+          </p>
+          <a class="text-link about-link" href="mailto:shubhamchaurasiya058@gmail.com">
+            Have an opportunity in mind? <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="skills section-pad" id="skills" aria-labelledby="skills-title">
+        <div class="section-wrap">
+          <div class="section-heading section-heading-light reveal">
+            <p class="eyebrow">What I’m working with <span class="eyebrow-line"></span> 02</p>
+            <h2 id="skills-title">A toolkit in<br><span class="serif-accent">the making.</span></h2>
+            <p class="section-intro">Building strong fundamentals and learning by doing.</p>
+          </div>
+
+          <div class="skill-grid">
+            <article class="skill-card reveal">
+              <span class="card-number">01</span>
+              <span class="skill-icon" aria-hidden="true">&lt;/&gt;</span>
+              <h3>Programming</h3>
+              <p>Java <span>·</span> Python <span>·</span> C</p>
+              <span class="skill-note">Core languages</span>
+            </article>
+            <article class="skill-card reveal">
+              <span class="card-number">02</span>
+              <span class="skill-icon skill-icon-asterisk" aria-hidden="true">✳</span>
+              <h3>Problem solving</h3>
+              <p>Data structures <span>·</span> Algorithms</p>
+              <span class="skill-note">Practising with Java</span>
+            </article>
+            <article class="skill-card reveal">
+              <span class="card-number">03</span>
+              <span class="skill-icon" aria-hidden="true">⌘</span>
+              <h3>Web foundations</h3>
+              <p>HTML <span>·</span> CSS <span>·</span> JavaScript</p>
+              <span class="skill-note">Growing every day</span>
+            </article>
+            <article class="skill-card reveal">
+              <span class="card-number">04</span>
+              <span class="skill-icon skill-icon-database" aria-hidden="true">◉</span>
+              <h3>Exploring next</h3>
+              <p>SQL <span>·</span> AI <span>·</span> Machine learning</p>
+              <span class="skill-note">Foundations in progress</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="journey section-pad" id="journey" aria-labelledby="journey-title">
+        <div class="journey-inner section-wrap">
+          <div class="section-heading journey-heading reveal">
+            <div>
+              <p class="eyebrow">The learning never stops <span class="eyebrow-line"></span> 03</p>
+              <h2 id="journey-title">Small steps.<br><span class="serif-accent">Real progress.</span></h2>
+            </div>
+            <p class="section-intro">A snapshot of what I’m studying and exploring along the way.</p>
+          </div>
+
+          <div class="journey-content">
+          <article class="journey-block education-block reveal">
+            <div class="block-label">
+              <span class="label-icon" aria-hidden="true">↗</span>
+              <span>Education</span>
+            </div>
+            <div class="journey-detail">
+              <p class="detail-kicker">B.Tech · 2024—2028</p>
+              <h3>Maharana Pratap Group of Institutions</h3>
+              <p>Computer Science Engineering · Artificial Intelligence &amp; Machine Learning</p>
+              <span class="detail-tag">Third year</span>
+            </div>
+            <div class="journey-detail secondary-detail">
+              <p class="detail-kicker">Higher secondary · CBSE</p>
+              <h3>RLS Secondary School</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+
+          <article class="journey-block learning-block reveal">
+            <div class="block-label">
+              <span class="label-icon" aria-hidden="true">✳</span>
+              <span>Learning &amp; recognition</span>
+            </div>
+            <div class="learning-list">
+              <section class="learning-category" aria-labelledby="learning-courses-title">
+                <h3 class="learning-category-title" id="learning-courses-title">Certificates &amp; workshops</h3>
+                <div class="learning-item">
+                  <span class="learning-index">01</span>
+                  <div>
+                    <h4>AI for Beginners</h4>
+                    <p>HP LIFE · AI concepts and real-world applications</p>
+                  </div>
+                  <span class="learning-arrow" aria-hidden="true">↗</span>
+                </div>
+                <div class="learning-item">
+                  <span class="learning-index">02</span>
+                  <div>
+                    <h4>AI Tools Workshop</h4>
+                    <p>Be10x</p>
+                  </div>
+                  <span class="learning-arrow" aria-hidden="true">↗</span>
+                </div>
+              </section>
+              <section class="learning-category" aria-labelledby="coding-practice-title">
+                <h3 class="learning-category-title" id="coding-practice-title">Coding practice</h3>
+                <div class="learning-item learning-summary">
+                  <span class="learning-index">03</span>
+                  <div>
+                    <h4>Data structures &amp; algorithms</h4>
+                    <p>Practising problem-solving fundamentals with Java.</p>
+                  </div>
+                  <span class="learning-arrow" aria-hidden="true">↗</span>
+                </div>
+              </section>
+              <section class="learning-category learning-projects" aria-labelledby="learning-projects-title">
+                <h3 class="learning-category-title" id="learning-projects-title">Projects</h3>
+                <article class="learning-project">
+                  <div class="learning-project-heading">
+                    <h4>Shubham Veltrix portfolio</h4>
+                    <span>PERSONAL PROJECT</span>
+                  </div>
+                  <p>A responsive multi-page portfolio with a collaboration hub, theme switcher, and Ctrl+K quick-access palette.</p>
+                  <div class="course-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                  </div>
+                </article>
+              </section>
+              <section class="learning-category coursework">
+                <h3 class="learning-category-title">Coursework</h3>
+                <div class="course-tags">
+                  <span>Data structures &amp; algorithms</span>
+                  <span>Artificial intelligence &amp; ML</span>
+                  <span>Object-oriented programming</span>
+                  <span>Database management systems</span>
+                  <span>Programming fundamentals</span>
+                </div>
+              </section>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact section-pad" id="contact" aria-labelledby="contact-title">
+        <div class="contact-inner section-wrap reveal">
+          <div class="contact-copy-block">
+            <p class="eyebrow">The next good thing starts with a hello <span class="eyebrow-line"></span> 04</p>
+            <h2 id="contact-title">Let’s make room<br>for <span class="serif-accent">what’s possible.</span></h2>
+            <p class="contact-copy">Open to learning, collaboration, and new opportunities. I’d love to hear from you.</p>
+            <a class="contact-email" href="mailto:shubhamchaurasiya058@gmail.com">
+              shubhamchaurasiya058@gmail.com <span aria-hidden="true">↗</span>
+            </a>
+            <div class="contact-socials">
+              <a
+                href="https://www.linkedin.com/in/shubham-chaurasiya-15685a36"
+                target="_blank"
+                rel="noopener noreferrer"
+              >LinkedIn <span aria-hidden="true">↗</span></a>
+              <span class="social-divider" aria-hidden="true"></span>
+              <span>Kanpur, Uttar Pradesh, India</span>
+            </div>
+          </div>
+          <figure class="contact-visual">
+            <img
+              src="assets/contact-workspace.svg"
+              alt="Illustration of a software workspace with code, AI connections, and collaboration signals"
+              width="640"
+              height="520"
+              loading="lazy"
+            >
+          </figure>
+          <span class="contact-spark" aria-hidden="true">✳</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner section-wrap">
+        <a class="wordmark footer-wordmark" href="#home">
+          <span class="wordmark-mark">SV</span>
+          <span>Shubham Veltrix</span>
+        </a>
+        <p>Designed with curiosity &amp; care.</p>
+        <a class="back-top" href="#home">Back to top <span aria-hidden="true">↑</span></a>
+      </div>
+    </footer>
+    <dialog class="credits-dialog" aria-labelledby="credits-title">
+      <div class="credits-dialog-inner">
+        <button class="credits-close" type="button" aria-label="Close website information">×</button>
+        <p class="eyebrow">A little behind the scenes</p>
+        <h2 id="credits-title">About this website</h2>
+        <p>A personal portfolio for Shubham Veltrix, built with HTML, CSS, and JavaScript.</p>
+        <p class="credits-version">Version v1.0</p>
+      </div>
+    </dialog>
+  </body>
+</html>
